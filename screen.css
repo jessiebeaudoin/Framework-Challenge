@@ -1,19 +1,11 @@
 /* Add screen styles below */
 .card {
-    max-width: 540px; /* Set the envelope width */
-    margin: 20px auto; /* Center the card on the page */
-    border: 2px solid black; /* Add a black outline for the envelope */
-    border-radius: 10px; /* Slightly round the corners for an envelope look */
-    padding: 20px; /* Add inner spacing to the envelope */
-    background-color: white; /* Set the envelope background color */
-    position: relative; /* Enable positioning for child elements */
-  }
-  
-  .card-content {
-    position: absolute; /* Position the Tesla content inside the envelope */
-    top: 10px; /* Adjust to place it at the top */
-    left: 10px; /* Adjust to place it to the left */
-    max-width: 300px; /* Optional: Adjust the width of the Tesla content */
+    max-width: 540px;
+    margin: 20px auto; 
+    border: 2px solid black; 
+    border-radius: 10px; 
+    padding: 20px; 
+    background-color: white; 
   }
   
   .card img {
